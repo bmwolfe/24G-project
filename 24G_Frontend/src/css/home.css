@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Writable Story";
+  src: url("Writable-Story.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("BrandonGrotesque-Regular.woff2") format("woff2"),
+    url("BrandonGrotesque-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.home{
+    background-image: url('../assets/images/bg_desktop.png');
+    min-height: 110vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.drink-grid {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+  gap: 5vh;
+  padding: 0 15vw;
+  width: 100vw;
+  box-sizing: border-box;
+  align-items: center;
+  justify-items: center;
+}
+
+.greeting {
+  font-family: "Writable Story", cursive;
+  font-size: 70px;
+  text-align: center;
+  margin: 0;
+}
+
+.description {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 20px;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center; 
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-top: 4vh;
+  margin-left: 2vw;
+}
+
+@media (max-width: 1250px) {
+    .home{
+        background-image: url('../assets/images/bg_mobile.png');
+    }
+
+    .greeting {
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 80px;
+        margin-top: 2vh;
+        margin-left: 1vw;
+    }
+
+    .drink-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4vh;
+      padding: 0 5vw;
+    }
+}
+
+@media (min-width: 1251px) and (max-width: 1670px) {
+    .home{
+        background-image: url('../assets/images/bg_tablet.png');
+    }
+
+    .drink-grid {
+      display: grid;
+      grid-template-columns: 2fr 2fr 2fr;
+      gap: 5vh;
+      padding: 0 10vw;
+    }
+}

@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Writable Story";
+  src: url("Writable-Story.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("BrandonGrotesque-Bold.woff2") format("woff2"),
+    url("BrandonGrotesque-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("BrandonGrotesque-Regular.woff2") format("woff2"),
+    url("BrandonGrotesque-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: rgb(32, 28, 28);
+  border-radius: 12px;
+  padding: 2rem;
+  width: 40%;
+  max-height: 50vh;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: left;
+  color: #fff;
+  overflow: auto;
+}
+
+.popup-scroll {
+  overflow-y: hidden;
+  max-height: 100vh;
+  padding-right: 0.5rem;
+  padding-top: 8vh;
+}
+
+.close-button {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.name {
+  font-family: "Writable Story", cursive;
+  font-size: 48px;
+  color: #ffffff;
+  margin: 0;
+  background-color: rgb(32, 28, 28);
+  position: absolute;
+}
+
+.info{
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  margin-bottom: 1vh;
+}
+
+li {
+    font-family: "Brandon Grotesque", sans-serif;
+    font-size: 16px;
+    margin-bottom: 1vh;
+}
+
