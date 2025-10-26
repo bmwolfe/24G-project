@@ -4,7 +4,7 @@
 
 **Date of Submission:** October 26th, 2025
 
-**Hours Spent to Complete:** 6 hours
+**Hours Spent to Complete:** About 6 hours
 
 # Instructions:
 
@@ -30,7 +30,7 @@ The main difficulties I encountered was determining which HTML element would all
 
 # Final Notes:
 
-I didn't fully complete the project as you will notie, there are small inconsistencies with the example and the final outcome, this includes how clean the scrolling is when the pop up is open, the pop up size scaling with the screen size/device type, and the spacing of some objects within the website is not perfect. I am sure there are other small things but these are the notable ones. Thank you for this opportunity. Have a great day!
+I didn't fully complete the project as you will notice, there are small inconsistencies with the example and the final outcome, this includes how clean the scrolling is when the pop up is open, the pop up size scaling with the screen size/device type, and the spacing of some objects within the website is not perfect. I am sure there are other small things but these are the notable ones. Thank you for this opportunity. Have a great day!
 
 Generated README:
 
